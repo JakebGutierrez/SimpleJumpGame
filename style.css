@@ -1,9 +1,10 @@
 *{
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
-#game{
+.game{
     width: 500px;
     height: 200px;
     border: 1px solid black;
@@ -41,8 +42,8 @@
 }
 
 @keyframes block{
-    0%{left:500px;}
-    100%{left:-20px;}
+    0%{left: 500px}
+    100%{left: -20px}
 }
 
 p{
